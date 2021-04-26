@@ -11,6 +11,11 @@ namespace ConsoleApp1
         private string codeDeCour { get; set; }
         private int numerosDeCour { get; set; }
 
+        public Cour() {
+            this.numerosDeCour = 0;
+            this.titreDeCour = null;
+            this.codeDeCour = null;
+        }
         public Cour(string titre, string code)
         {
             this.numerosDeCour = ++numeroCoursDeBase;
@@ -21,7 +26,7 @@ namespace ConsoleApp1
         public override string ToString()
         {
             return "#Cours: "+this.numerosDeCour+
-                   "\n"+this.getTitreComplet;
+                   "\n"+this.GetTitreComplet();
         }
         
         public string GetTitreComplet(){

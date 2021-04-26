@@ -5,7 +5,7 @@ class StreamWriterTwo
 {
     public static async Task AppendLine(string addedLine, string fileName)
     {
-        using StreamWriter file = new(fileName, append: true);
+        using StreamWriter file = new StreamWriter(fileName, append: true);
         await file.WriteLineAsync(addedLine);
     }
 }

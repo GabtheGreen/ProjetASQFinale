@@ -11,6 +11,11 @@ namespace ConsoleApp1
         private string prenomEtudiant { get; set; }
         private int numeroEtudiant { get; set; }
 
+        public Etudiant() {
+            this.numeroEtudiant = 0;
+            this.prenomEtudiant = null;
+            this.nomEtudiant = null;
+        }
         public Etudiant(string prenom, string nom) {
             this.numeroEtudiant = ++numeroEtudiantDeBase;
             this.prenomEtudiant = prenom;
@@ -20,7 +25,7 @@ namespace ConsoleApp1
         public override string ToString()
         {
             return "#Etudiant: "+this.numeroEtudiant+
-                   "\n"+this.getNomComplet;
+                   "\n"+this.GetNomComplet();
         }
         
         public string GetNomComplet(){
