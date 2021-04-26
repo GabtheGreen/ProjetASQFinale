@@ -1,0 +1,4 @@
+C:\Users\GabBigPC\Documents\GitHub\ProjetASQFinale\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\GabBigPC\Documents\GitHub\ProjetASQFinale\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\GabBigPC\Documents\GitHub\ProjetASQFinale\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\GabBigPC\Documents\GitHub\ProjetASQFinale\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache

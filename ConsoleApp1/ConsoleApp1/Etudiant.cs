@@ -16,7 +16,16 @@ namespace ConsoleApp1
             this.prenomEtudiant = prenom;
             this.nomEtudiant = nom;
         }
-
+        
+        public override string ToString()
+        {
+            return "#Etudiant: "+this.numeroEtudiant+
+                   "\n"+this.getNomComplet;
+        }
+        
+        public string GetNomComplet(){
+        return this.prenomEtudiant+" "+this.nomEtudiant;
+        }
 
     }
 }
