@@ -7,14 +7,15 @@ namespace ConsoleApp1
     class Note
     {
         private int noteDeCour { get; set; }
-        private int numeroEtudiant { get; set; }
-        private int numerosDeCour { get; set; }
+        private Etudiant;
+        private Cour;
 
-        public Note(int Etudiant, int cour, int note)
+        public Note(Etudiant unEtudiant, Cour unCour, int note)
         {
-            this.numeroEtudiant = Etudiant;
-            this.numerosDeCour = cour;
+            this.Etudiant = unEtudiant;
+            this.Cour = unCour;
             this.noteDeCour = note;
         }
+        
     }
 }
